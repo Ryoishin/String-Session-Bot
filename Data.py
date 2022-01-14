@@ -54,7 +54,7 @@ Managed By @Ryoishin
 
 A telegram bot to retrieve pyrograms and telethon string sessions by @Ryoishin
 
-Owner : [Ryoishin](https://t.me/Ryoishin)
+Repo : [GitHub](https://github.com/Ryoishin/String-Session-Bot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
