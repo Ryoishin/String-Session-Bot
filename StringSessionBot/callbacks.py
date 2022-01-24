@@ -1,3 +1,5 @@
+import traceback
+
 from Data import Data
 from pyrogram import Client
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
@@ -57,4 +59,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             else:
                 await generate_session(bot, callback_query.message, telethon=True)
         except Exception as e:
+         print(traceback.format_exc())
+            print(e)
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
